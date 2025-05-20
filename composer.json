@@ -1,0 +1,44 @@
+{
+    "name": "hyperf.plus/invoker",
+    "description": "",
+    "license": "MIT",
+    "keywords": [
+        "php",
+        "swoole",
+        "hyperf",
+        "invoker"
+    ],
+    "homepage": "https://yangqi.co",
+    "support": {
+        "issues": "https://github.com/hyperfPlus/invoker/issues",
+        "source": "https://github.com/hyperfPlus/invoker",
+        "docs": "https://yangqi.co",
+        "pull-request": "https://github.com/hyperfPlus/invoker/pulls"
+    },
+    "require": {
+        "php": ">=8.3",
+        "hyperf/collection": "~3.1.0",
+        "hyperf/context": "~3.1.0",
+        "hyperf/di": "~3.1.0"
+    },
+    "suggest": {
+    },
+    "autoload": {
+        "psr-4": {
+            "HyperfPlus\\Invoker\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "HyperfTest\\Invoker\\": "tests/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "hyperf": {
+            "config": "HyperfPlus\\Invoker\\ConfigProvider"
+        }
+    }
+}
